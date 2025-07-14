@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /blog-portfolio/public/
+
+# Supprime index.php de l’URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

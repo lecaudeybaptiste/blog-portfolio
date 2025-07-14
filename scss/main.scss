@@ -1,0 +1,21 @@
+// 1) polices
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// 2) d’abord tes variables (pour pouvoir overrider celles de Bootstrap si besoin)
+@import 'variables';
+
+// 3) ensuite Bootstrap (résolu dans node_modules)
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// 4) enfin tes styles de base
+@import 'base';
+
+
+
+
+
+
+
+
+
+
