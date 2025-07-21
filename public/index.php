@@ -8,7 +8,7 @@ require_once __DIR__ . '/../core/Model.php';
 require_once __DIR__ . '/../core/View.php';
 
 
-// Autoload des classes (si besoin tu pourras le remplacer par Composer plus tard)
+// Autoload des classes 
 spl_autoload_register(function ($class) {
     foreach (['controllers', 'models'] as $folder) {
         $file = __DIR__ . "/../app/$folder/$class.php";
