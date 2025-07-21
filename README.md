@@ -22,7 +22,7 @@ Projet réalisé dans le cadre de la formation Believemy.
 
 ## 🎥 Démonstration vidéo
 
-👉 [Lien YouTube ici (en non-répertorié)](https://youtube.com/...)
+👉 [Lien YouTube ici (en non-répertorié)] (https://www.youtube.com/watch?v=JbirBDtpsnU)
 
 ## 🗂️ Structure du projet
 
